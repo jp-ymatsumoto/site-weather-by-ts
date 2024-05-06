@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>天気予報</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>天気予報</h1>
+      <form id="form">
+        <select id="city">
+          <option value="030010">岩手県 盛岡</option>
+          <option value="030020">岩手県 宮古</option>
+          <option value="030030">岩手県 大船渡</option>
+        </select>
+        <input type="submit" value="取得" />
+      </form>
+      <div id="weather"></div>
+    </div>
+
+    <script type="module" src="dist/main.js"></script>
+  </body>
+</html>
